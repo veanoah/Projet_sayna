@@ -1,0 +1,102 @@
+html,
+body {
+    margin: 0;
+    height: 100%;
+}
+
+#nav {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#nav a {
+    margin-right: 20px;
+}
+
+#nav a.topimages {
+    width: 20px;
+    height: 20px;
+    background: red;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+#middle {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    text-align: center;
+}
+
+#searchbarcontainer {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#searchbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0;
+    width: 500px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+    border: 1px solid #c4c4c4;
+}
+
+#searchbar:hover {
+    box-shadow: 0 0 10px 2px rgb(233, 233, 233);
+}
+
+#button {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    background: rgb(231, 231, 231);
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+#links {
+    margin-top: 20px;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-content {
+    background: #eee;
+    border-top: 1px solid gray;
+}
